@@ -11,7 +11,7 @@ export const getServerSideProps = () => {
     return { props: { initialCount: 10 } }
 }
 
-export default function Counter({ initialCount }) { // initiaCountがgeterverSidePropsから受け取れる
+export default function CounterPage({ initialCount }) { // initiaCountがgeterverSidePropsから受け取れる
     const [count, setCount] = useState(initialCount)
     return (
         <div>
